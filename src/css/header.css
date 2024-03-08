@@ -2,7 +2,7 @@
     background-color: #ffffff;
     border-bottom: 1px solid #544585;
     overflow: hidden;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100vw;
     z-index: 2;
