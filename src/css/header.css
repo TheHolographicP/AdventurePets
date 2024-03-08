@@ -2,8 +2,9 @@
     background-color: #ffffff;
     border-bottom: 1px solid #544585;
     overflow: hidden;
-    position: absolute;
-    width: 100%;
+    position: sticky;
+    top: 0;
+    width: 100vw;
     z-index: 2;
 }
 
@@ -56,8 +57,8 @@
 
 .nav_link{
     padding-top: 0.5rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     background-color: #544585;
     color: #ffffff;
     border-radius: 1.5rem;
