@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+body main {
+    margin-top:40px;
+    display: grid;
+    grid-template: 35vh max-content / 100%;
+    grid-template-areas: 
+    "image"
+    "content";
+    justify-content: center;
+    justify-items: center;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#bkgdImg {
+    max-height: 35vh;
+    overflow: hidden;
+    min-width: 100%;
+    object-fit:cover;
+    object-position: center top;
+    grid-area: image;
+}
+
+#content{
+    grid-area: content;
+    grid-template-rows: max-content 1fr;
+    margin-top: .5rem;
+    display: grid;
+    width: 100vw;
+    justify-items: center;
+}
+
+#blurbs{
+    display: grid;
+    grid-column: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.aboutBlurb{
+    color: #ffffff;
+    background-color: #544585;
+    border-radius: 20px;
+    max-width: 800px;
+    padding: 0.5rem;
+    & h4{
+        color: #FFDA54;
+        margin-bottom: .5rem;
+    }
+    & p{
+        line-height: 1.3;
+    }
+}
