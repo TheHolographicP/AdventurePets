@@ -7,7 +7,7 @@
     z-index: 2;
 }
 
-header{
+#headerConstant{
     height: 40px;
     padding-right: 5px;
     padding-left: 5px;
@@ -16,13 +16,13 @@ header{
     justify-content: space-between;
 }
 
-header #spacer{
+#headerConstant #spacer{
     aspect-ratio: 3/4;
     height: 100%;
     visibility: hidden;
 }
 
-header #logo{
+#headerConstant #logo{
     height: 100%;
 }
 
