@@ -1,36 +1,10 @@
-html{
-    font-size: 14px;
-    font-family: "Cambay", "Arial", serif;
-}
-
-h1{
-    color: #544585;
-    font-family: "Salsa", "Arial", sans-serif;
-    font-size: 2.986rem;
-    font-weight: 700;
-}
-
-h2, h3, h4{
-    font-family: "Quando", "Arial", sans-serif;
-    color: #544585;
-}
-
-h2{
-    font-size: 2.488rem;
-}
-h3{
-    font-size: 2.074rem;
-}
-h4{
-    font-size: 1.728rem;
-}
-
-
 #headerArea{
     background-color: #ffffff;
-    margin-bottom: 15px;
     border-bottom: 1px solid #544585;
     overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
 }
 
 header{
@@ -43,7 +17,8 @@ header{
 }
 
 header #spacer{
-    width: 30px;
+    aspect-ratio: 3/4;
+    height: 100%;
     visibility: hidden;
 }
 
@@ -63,19 +38,20 @@ header #logo{
 }
 
 #menubutton{
-    display: block;
-    width: 30px;
-    height: 30px;
+    display: flex;
+    align-content: center;
+    aspect-ratio: 3/4;
+    height: 100%;
 }
-
-header #mobilemenuimage{
-    margin: auto;
-    width: 100%;
-    display: block;
-} 
-
-.collapsing_nav{
+ 
+.inline_nav{
     display: none;
+}
+.collapsing_nav{
+    align-items: center;
+    justify-content: space-around;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .nav_link{
@@ -89,10 +65,3 @@ header #mobilemenuimage{
     text-decoration: none;
 }
 
-.collapse_input:checked ~ .collapsing_nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}

@@ -1,0 +1,30 @@
+@media screen and (min-width:500px) and (max-width:800px) and (min-height:400px) {
+    header{
+        height: 50px;
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
+    html{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:800px) and (min-height:800px) {
+    header{
+        height: 50px;
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
+    #menubutton, .collapsing_nav, #spacer{
+        display: none;
+    }
+    .inline_nav{
+        display: block;
+    }
+    html{
+        font-size: 18px;
+    }
+    #splashTitle{
+       max-width: 500px;
+    }
+}

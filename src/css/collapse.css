@@ -1,0 +1,28 @@
+#menubutton{
+    align-content: center;
+    aspect-ratio: 3/4;
+    height: 100%;
+}
+
+.collapse_arrow{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: transform 0.2s;
+}
+
+.collapse_input{
+    display: none;
+}
+
+.collapse_content{
+    display: none;
+}
+
+.collapse_input:checked ~ .collapse_content{
+    display:flex;
+}
+
+.collapse_input:checked ~ header label .collapse_arrow {
+    transform: rotate(0.5turn);
+}

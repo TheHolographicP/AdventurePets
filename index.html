@@ -10,30 +10,41 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Quando&family=Salsa&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="src/css/reset.css">
-        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/collapse.css">
+        <link rel="stylesheet" href="src/css/pg_home.css">
+        <link rel="stylesheet" href="src/css/mediaqry.css">
     </head>
     <body>
-        <div id="headerArea">
+        <header id="headerArea">
             <input type="checkbox" id="menucheckbox" class="collapse_input">
-            <header>
+            <section>
                 <div id="spacer">hidden</div>
+                <a href="src/html/pets.html" class="nav_link inline_nav">Pets</a>
+                <a href="src/html/register.html" class="nav_link inline_nav">Register</a>
                 <img src="src/img/logo.svg" id="logo">
+                <a href="src/html/donate.html" class="nav_link inline_nav">Donate</a>
+                <a href="src/html/signin.html" class="nav_link inline_nav">Sign In</a>
                 <label for="menucheckbox" id="menubutton">
-                    <img src="src/img/mobilemenu.svg" id="mobilemenuimage">
+                    <img src="src/img/menu_arrow.svg" class="collapse_arrow">
                 </label>
-            </header>
-            <nav class="collapsing_nav">
+            </section>
+            <nav class="collapse_content collapsing_nav">
                 <a href="src/html/pets.html" class="nav_link">Pets</a>
                 <a href="src/html/register.html" class="nav_link">Register</a>
                 <a href="src/html/donate.html" class="nav_link">Donate</a>
                 <a href="src/html/signin.html" class="nav_link">Sign In</a>
             </nav>
-        </div>
+        </header>
 
         <main>
-            <img src="src/img/background.png">
-            <h1>Furry Adventurers Found Here</h1>
-            <a href="src/html/pets.html">Find a furry friend you'll love.</a>
+            <img src="src\img\homeBkg.webp" id="bkgdImg">
+            <section id="contentGrid">
+                <h1 id="splashTitle">Furry Adventurers Found Here</h1>
+                <a href="src/html/pets.html" id="splashLink">Find a furry friend you'll love.</a>
+            </section>
         </main>
+        <script src="src/js/script.js" defer></script>
     </body>
 </html>
