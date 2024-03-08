@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Quando&family=Salsa&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/collapse.css">
+        <link rel="stylesheet" href="src/css/pg_pets.css">
+        <link rel="stylesheet" href="src/css/mediaqry_pets.css">
+    </head>
+    <body>
+        <header id="headerArea">
+            <input type="checkbox" id="menucheckbox" class="collapse_input">
+            <section id="headerConstant">
+                <div id="spacer">hidden</div>
+                <a href="pets.html" class="nav_link inline_nav">Pets</a>
+                <a href="register.html" class="nav_link inline_nav">Register</a>
+                <img src="src/img/logo.svg" id="logo">
+                <a href="donate.html" class="nav_link inline_nav">Donate</a>
+                <a href="signin.html" class="nav_link inline_nav">Sign In</a>
+                <label for="menucheckbox" id="menubutton">
+                    <img src="src/img/menu_arrow.svg" class="collapse_arrow">
+                </label>
+            </section>
+            <nav class="collapse_content collapsing_nav">
+                <a href="pets.html" class="nav_link">Pets</a>
+                <a href="register.html" class="nav_link">Register</a>
+                <a href="donate.html" class="nav_link">Donate</a>
+                <a href="signin.html" class="nav_link">Sign In</a>
+            </nav>
+        </header>
+        <main>
+            <img src="src\img\petBkg.webp" id="bkgdImg">
+            <section id="content">
+                <h3 id="galleryTitle">Availible Pets</h1>
+                <section id="petsGallery">
+                    <article class="pet">
+                        <img src="src/img/tex.webp" class="pet__image">
+                        <p class="pet__name">
+                            Tex
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/janet.webp" class="pet__image">
+                        <p class="pet__name">
+                            Janet
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/fido.webp" class="pet__image">
+                        <p class="pet__name">
+                            Fido
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/tex.webp" class="pet__image">
+                        <p class="pet__name">
+                            Tex
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/janet.webp" class="pet__image">
+                        <p class="pet__name">
+                            Janet
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/fido.webp" class="pet__image">
+                        <p class="pet__name">
+                            Fido
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/tex.webp" class="pet__image">
+                        <p class="pet__name">
+                            Tex
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/janet.webp" class="pet__image">
+                        <p class="pet__name">
+                            Janet
+                        </p>
+                    </article>
+                    <article class="pet">
+                        <img src="src/img/fido.webp" class="pet__image">
+                        <p class="pet__name">
+                            Fido
+                        </p>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <script src="src/js/script.js" defer></script>
+    </body>
+</html>
