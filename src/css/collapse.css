@@ -23,6 +23,6 @@
     display:flex;
 }
 
-.collapse_input:checked ~ header label .collapse_arrow {
+.collapse_input:checked ~ nav label .collapse_arrow {
     transform: rotate(0.5turn);
 }
