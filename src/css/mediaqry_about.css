@@ -7,6 +7,9 @@
     html{
         font-size: 16px;
     }
+    #bkgdImg{
+        top:50px
+    }
     body main {
         margin-top:50px;
     }
@@ -26,6 +29,12 @@
     }
     html{
         font-size: 18px;
+    }
+    #bkgdImg{
+        top:50px
+    }
+    body main {
+        margin-top:50px;
     }
 }
 
