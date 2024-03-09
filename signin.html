@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Adventure Pets: Register</title>
+        <link rel="icon" type="image/x-icon" href="src/img/logosmall.svg">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Quando&family=Salsa&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+        <link rel="stylesheet" href="src/css/collapse.css">
+        <link rel="stylesheet" href="src/css/pg_register.css">
+        <link rel="stylesheet" href="src/css/mediaqry_register.css">
+    </head>
+    <body>
+        <header id="headerArea">
+            <input type="checkbox" id="menucheckbox" class="collapse_input">
+            <nav id="headerConstant">
+                <div id="spacer">hidden</div>
+                <a href="pets.html" class="nav_link inline_nav">Pets</a>
+                <a href="register.html" class="nav_link inline_nav">Register</a>
+                <a href="index.html" id="logo"><img src="src/img/logo.svg" alt="logo"></a>
+                <a href="about.html" class="nav_link inline_nav">About</a>
+                <a href="signin.html" class="nav_link inline_nav">Sign In</a>
+                <label for="menucheckbox" id="menubutton">
+                    <img src="src/img/menu_arrow.svg" class="collapse_arrow" alt="menuArrow">
+                </label>
+            </nav>
+            <nav class="collapse_content collapsing_nav">
+                <a href="pets.html" class="nav_link">Pets</a>
+                <a href="register.html" class="nav_link">Register</a>
+                <a href="about.html" class="nav_link">About</a>
+                <a href="signin.html" class="nav_link">Sign In</a>
+            </nav>
+        </header>
+        <main class="contentPage">
+            <img src="src/img/registerBkg.webp" id="bkgdImg" alt="background image">
+            <section id="content" class="container">
+                <h3 id="contentTitle">Sign In</h3>
+                <form class="row g-3">
+                    <fieldset class="col-md-12">
+                        <label for="inputEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" required>
+                    </fieldset>
+                    <fieldset class="col-md-12">
+                        <label for="inputSecret" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputSecret" required>
+                    </fieldset>
+                    <fieldset class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary" id="submitButton">Log In</button>
+                    </fieldset>
+                </form>    
+            </section>
+            <footer>
+                <a href="https://bsky.social/" class="social">
+                    <img src="src/img/blueSkyLogo.svg" class="social__logo">
+                    <figcaption class="social__caption">Bluesky</figcaption>
+                </a>
+                &copy TheHolographicP 2024
+                <a href="https://github.com/TheHolographicP" class="social">
+                    <img src="src/img/githubLogo.svg" class="social__logo">
+                    <figcaption class="social__caption">Github</figcaption>
+                </a>
+            </footer>
+        </main>
+        <script src="src/js/script.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
