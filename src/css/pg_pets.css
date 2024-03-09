@@ -8,7 +8,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    max-width: 800px;
+    max-width: 1000px;
     height: fit-content;
     padding: 1rem;
 }
@@ -34,4 +34,5 @@
     color: #FFDA54;
     margin: auto;
     padding: .25rem;
+    font-size: 1.5rem;
 }

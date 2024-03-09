@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (min-width:1920px) and (min-height:800px) {
+@media screen and (min-width:1700px) and (min-height:800px) {
     #bkgdImg{
         border-radius: 0 0 30px 30px;
     }
