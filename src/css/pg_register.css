@@ -24,8 +24,9 @@ body main {
     overflow: hidden;
     min-width: 100%;
     object-fit:cover;
-    object-position: center top;
+    object-position: center 50%;
     grid-area: image;
+    max-width: 1920px;
 }
 
 #content{
@@ -33,41 +34,8 @@ body main {
     grid-template-rows: max-content 1fr;
     gap: .5rem;
     margin-top: .5rem;
+    margin-bottom: .5rem;
     display: grid;
     width: 100vw;
     justify-items: center;
-}
-
-#petsGallery{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 800px;
-    height: fit-content;
-    padding: 1rem;
-}
-
-.pet{
-    width: 110px;
-    height: fit-content;
-    display: grid;
-    grid-template-rows: 1fr, 1.25rem;
-
-    border: 1px solid #544585;
-    background-color: #544585;
-    border-radius: 10px;
-    align-items: center;
-}
-
-.pet__image{
-    width: 100%;
-    border-radius: 10px;
-}
-
-.pet__name{
-    color: #FFDA54;
-    margin: auto;
-    padding: .25rem;
 }
