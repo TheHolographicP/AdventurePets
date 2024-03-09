@@ -6,6 +6,7 @@ footer {
     justify-content: center;
     gap: 2rem;
     background-color: #ffffff;
+    color: #544585;
     border-top: 1px solid #544585;
     grid-area: footer;
 }
