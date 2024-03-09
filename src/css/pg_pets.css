@@ -17,7 +17,7 @@
     width: 110px;
     height: fit-content;
     display: grid;
-    grid-template-rows: 1fr, 1.25rem;
+    grid-template-rows: 1fr 2rem;
     border: 1px solid #544585;
     background-color: #544585;
     border-radius: 10px;
