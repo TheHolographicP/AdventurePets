@@ -1,2 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/qXn53puc)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=14197992&assignment_repo_type=AssignmentRepo)
+# EXSM 3934 Final Project
+## Description
+This site is intended to demonstrate my grasp of web design using HTML and CSS exclusively. I built on my final project from EXSM 3933 (Design for Developers) and expanded significantly from the project scope to challenge my abilities and make a finished product I could be proud of.
+
+## Tech Stack
+Bootstrap used for Sign in and Register pages per assignment requirement.
