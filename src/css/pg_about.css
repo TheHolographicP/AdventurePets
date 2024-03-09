@@ -5,6 +5,8 @@ body{
 
 body main {
     margin-top:40px;
+    margin-right: auto;
+    margin-left: auto;
     display: grid;
     grid-template: 35vh max-content / 100%;
     grid-template-areas: 
@@ -14,6 +16,7 @@ body main {
     justify-items: center;
     overflow-x: hidden;
     height: 100%;
+    max-width: 1920px;
 }
 
 #bkgdImg {
@@ -21,7 +24,7 @@ body main {
     overflow: hidden;
     min-width: 100%;
     object-fit:cover;
-    object-position: center top;
+    object-position: center 30%;
     grid-area: image;
 }
 
