@@ -4,7 +4,7 @@ I used this tutorial to guide my design of the collapsible navbar on the mobile 
 https://www.youtube.com/watch?v=pzy_QStQaqA
 
 ## Images
-All images sourced from Pexels:
+All dog images sourced from Pexels:
 Licence on Pexels is not a CC licence, but is open: https://www.pexels.com/license/
 
 ![image 1](/src/img/homeBkg.webp)
@@ -23,3 +23,8 @@ https://www.pexels.com/photo/a-woman-sitting-with-her-dog-6836415/
 
 ![image 7](/src/img/registerBkg.webp)
 https://www.pexels.com/photo/a-man-in-red-jacket-holding-a-trekking-pole-while-sitting-near-his-dog-on-mountain-8366960/
+
+## Github / Bluesky Icons:
+Sourced from respective company website, use permitted by license:
+https://github.com/logos
+https://bsky.social/about/blog/press-faq
