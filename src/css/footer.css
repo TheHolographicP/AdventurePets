@@ -1,0 +1,34 @@
+footer {
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #ffffff;
+    border-top: 1px solid #544585;
+}
+
+footer div{
+    max-width: 1400px;
+}
+
+.social {
+    display: grid;
+    grid-template: 40px / auto auto;
+    grid-template-areas: "img caption";
+    align-items: center;
+    gap: .5rem;
+}
+
+.social__logo{
+    height: 35px;
+    grid-area: img;
+}
+
+.social__caption{
+    grid-area: caption;
+    color: #544585;
+    /* see media queries*/
+    display: none;
+}

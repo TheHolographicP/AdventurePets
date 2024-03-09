@@ -13,6 +13,9 @@
     body main {
         margin-top:50px;
     }
+    .social__caption{
+        display: inline;
+    }
 }
 
 @media screen and (min-width:800px) and (min-height:800px) {
