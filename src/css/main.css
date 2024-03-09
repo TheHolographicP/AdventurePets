@@ -10,7 +10,8 @@ body{
     width: 100%;
     min-height: 100vh;
     min-width: 300px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     align-items: start;
 }
 
@@ -66,7 +67,8 @@ h4{
 #bkgdImg{
     max-height: 35vh;
     overflow: hidden;
-    min-width: 100%;
+    width: 100%;
+    max-width: 1700px;
     object-fit:cover;
     grid-area: image;
 }
