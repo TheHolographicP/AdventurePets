@@ -7,6 +7,7 @@ footer {
     gap: 2rem;
     background-color: #ffffff;
     border-top: 1px solid #544585;
+    grid-area: footer;
 }
 
 footer div{

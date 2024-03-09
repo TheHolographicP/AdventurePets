@@ -4,10 +4,14 @@ html{
 }
 
 body{
-    margin: 0;
-    height: 100%;
-    min-width: 300px;
+    display: grid;
+    grid-template-rows: 40px 1fr 50px;
+    grid-template-areas: "header" "content" "footer";
+    width: 100%;
+    min-height: 100vh;
+    align-items: start;
 }
+
 
 h1{
     color: #544585;
@@ -42,11 +46,10 @@ h4{
 }
 
 .contentPage{
-    margin-top:40px;
     margin-right: auto;
     margin-left: auto;
     display: grid;
-    grid-template: 35vh max-content / 100%;
+    grid-template: 35vh max-content / 100vw;
     grid-template-areas: 
     "image"
     "content";
@@ -55,6 +58,7 @@ h4{
     overflow-x: hidden;
     height: 100%;
     max-width: 1700px;
+    grid-area: content;
 }
 
 #bkgdImg{
